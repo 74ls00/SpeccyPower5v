@@ -26606,7 +26606,7 @@ W = angled&lt;p&gt;
 <part name="2R9" library="rcl" deviceset="R-EU_" device="0207/10" value="100"/>
 <part name="2VD3" library="SpeccyPower5v" deviceset="1N4148" device="DO35-7" value="1N4148"/>
 <part name="2R12" library="rcl" deviceset="R-EU_" device="R0805" value="910"/>
-<part name="2R13" library="rcl" deviceset="R-EU_" device="0207/10" value="820"/>
+<part name="2R13" library="rcl" deviceset="R-EU_" device="0204/7" value="820"/>
 <part name="2DA1" library="v-reg" deviceset="TL431CLP" device="" value="TL431"/>
 <part name="2R14" library="rcl" deviceset="R-EU_" device="R0805" value="47k*"/>
 <part name="2C10" library="rcl" deviceset="C-EU" device="050-025X075" value="10n*"/>
@@ -26623,7 +26623,7 @@ W = angled&lt;p&gt;
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="1F1" library="fuse" deviceset="SHK20L" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="2VD2" library="SpeccyPower5v" deviceset="1N4148" device="DO35-10" value="FR207"/>
+<part name="2VD2" library="SpeccyPower5v" deviceset="1N4148" device="DO35-7" value="FR207"/>
 <part name="1VD1" library="diode" deviceset="1N4004" device="" value="1N4007"/>
 <part name="1VD2" library="diode" deviceset="1N4004" device="" value="1N4007"/>
 <part name="1VD3" library="diode" deviceset="1N4004" device="" value="1N4007"/>
@@ -26633,7 +26633,7 @@ W = angled&lt;p&gt;
 <part name="2R3" library="rcl" deviceset="R-EU_" device="0613/15" value="80k 1w"/>
 <part name="3C2" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT2D7L" value="2200mfx10v"/>
 <part name="3C3" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT2D7L" value="3300mfx6.3v"/>
-<part name="3L2" library="rcl" deviceset="L-US" device="TFI0305" value="mhn"/>
+<part name="3L2" library="rcl" deviceset="L-US" device="LAL02" value="mhn"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="3R6" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
@@ -26656,7 +26656,7 @@ W = angled&lt;p&gt;
 <part name="2R1F" library="rcl" deviceset="R-EU_" device="M0805" value="150k"/>
 <part name="SV2" library="con-lstb" deviceset="MA03-1" device="" value="+5v"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="3R7" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
+<part name="3R7" library="rcl" deviceset="R-EU_" device="M0805" value="0"/>
 <part name="3VD2" library="diode" deviceset="DIODE-" device="DO220S"/>
 <part name="3R8" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="S1" library="pinhead" deviceset="PINHD-1X1" device=""/>
