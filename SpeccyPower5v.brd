@@ -152,15 +152,15 @@
 <wire x1="6.6675" y1="47.3075" x2="6.6675" y2="10.4775" width="0.254" layer="20"/>
 <wire x1="6.6675" y1="10.4775" x2="118.745" y2="10.4775" width="0.254" layer="20"/>
 <dimension x1="120.9675" y1="47.3075" x2="121.285" y2="10.4775" x3="125.095" y3="28.8925" layer="21" dtype="vertical"/>
-<text x="115.57" y="31.115" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">5V 3A</text>
+<text x="116.205" y="30.48" size="1.778" layer="16" font="vector" ratio="15" rot="MR90.1">5V 3A</text>
 <wire x1="118.745" y1="47.3075" x2="6.6675" y2="47.3075" width="0.254" layer="20"/>
 <wire x1="118.745" y1="10.4775" x2="118.745" y2="47.3075" width="0.254" layer="20"/>
-<text x="33.655" y="21.2725" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">github.com/74ls00</text>
+<text x="33.655" y="21.2725" size="1.778" layer="16" font="vector" ratio="15" rot="MR90.1">github.com/74ls00</text>
 <wire x1="75.565" y1="34.6075" x2="73.66" y2="36.5125" width="0.4064" layer="255"/>
 <wire x1="73.66" y1="36.5125" x2="67.6275" y2="36.5125" width="0.4064" layer="255"/>
 <wire x1="67.6275" y1="36.5125" x2="57.785" y2="46.0375" width="0.4064" layer="255"/>
 <wire x1="57.785" y1="46.0375" x2="50.8" y2="45.4025" width="0.4064" layer="255"/>
-<text x="8.89" y="26.035" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">220V</text>
+<text x="8.89" y="26.035" size="1.778" layer="16" font="vector" ratio="15" rot="MR90.1">220V</text>
 </plain>
 <libraries>
 <library name="v-reg">

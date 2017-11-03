@@ -26688,16 +26688,13 @@ W = angled&lt;p&gt;
 <sheet>
 <plain>
 <text x="284.48" y="10.16" size="3.81" layer="91" rot="R180">github.com/74ls00/SpeccyPower5v</text>
-<text x="200.66" y="43.18" size="0.1778" layer="91" font="vector" rot="MR180">2T1 ETD 29/16/10 2mm
+<text x="200.66" y="43.18" size="1.778" layer="91" font="vector" rot="MR180">T1 ETD 22/16/9 0.3mm
 
-I   2-4 51w 0.4mm
-II 4-5 51w 0.4mm
+I    4-5 81w 0.25mm
+II   1-3 12w 0.2mm
 
-III  1-3 17w 0.2mm
-
-IV 6-7 5w 6x0.55mm
-
-V 10-11 8w 4x0.55mm</text>
+III  6-9 7w x7 0.55mm
+</text>
 <wire x1="167.64" y1="116.84" x2="167.64" y2="0" width="0.3048" layer="98" style="shortdash"/>
 <wire x1="292.1" y1="116.84" x2="167.64" y2="116.84" width="0.4064" layer="98" style="shortdash"/>
 <wire x1="0" y1="114.046" x2="0" y2="0" width="0.4064" layer="98" style="shortdash"/>
