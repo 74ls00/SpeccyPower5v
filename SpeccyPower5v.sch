@@ -16667,6 +16667,10 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="-11" y1="-11" x2="-11" y2="11" width="0.127" layer="21"/>
 <wire x1="-11" y1="11" x2="11" y2="11" width="0.127" layer="21"/>
 <wire x1="11" y1="11" x2="11" y2="-11" width="0.127" layer="21"/>
+<text x="-6.35" y="-8.89" size="1.27" layer="21">5</text>
+<text x="-6.35" y="7.62" size="1.27" layer="21">1</text>
+<text x="5.08" y="5.08" size="1.27" layer="21">9</text>
+<text x="5.08" y="-6.35" size="1.27" layer="21">6</text>
 </package>
 <package name="TT5D11L">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -23735,10 +23739,10 @@ diameter 7 mm, grid 2.54 mm</description>
 <wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94" curve="-180"/>
 <pin name="OP1" x="-10.16" y="-2.54" visible="pad" length="middle"/>
 <pin name="OP2" x="-10.16" y="-12.7" visible="pad" length="middle"/>
-<circle x="-5" y="-3.88" radius="0.2" width="0.8128" layer="94"/>
-<circle x="5.15" y="16.49" radius="0.2" width="0.8128" layer="94"/>
+<circle x="-5" y="-11.5" radius="0.2" width="0.8128" layer="94"/>
+<circle x="5.15" y="8.87" radius="0.2" width="0.8128" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<circle x="-5" y="3.84" radius="0.2" width="0.8128" layer="94"/>
+<circle x="-5" y="16.54" radius="0.2" width="0.8128" layer="94"/>
 <text x="-6.35" y="10.795" size="1.778" layer="94" font="vector" rot="MR0">I</text>
 <text x="-6.35" y="-8.255" size="1.778" layer="94" font="vector" rot="MR0">II</text>
 <text x="6.985" y="12.065" size="1.778" layer="94" font="vector">III</text>
@@ -26637,7 +26641,7 @@ W = angled&lt;p&gt;
 <part name="2R16" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="1C7" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT5D11L" value="47x400v"/>
+<part name="1C7" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT5D11L" value="22x400v"/>
 <part name="2VT1" library="transistor-power" deviceset="IRF3704" device="L-V" value="IRF740"/>
 <part name="2R10" library="rcl" deviceset="R-EU_" device="0207/10" value="470"/>
 <part name="2C2" library="rcl" deviceset="C-EU" device="102-043X133" value="10n"/>
@@ -26657,7 +26661,7 @@ W = angled&lt;p&gt;
 <part name="2R3" library="rcl" deviceset="R-EU_" device="0613/15" value="80k 1w"/>
 <part name="3C2" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT2D7L" value="2200mfx10v"/>
 <part name="3C3" library="SpeccyPower5v" deviceset="CPOL-EU" device="TT2D7L-2" value="3300mfx6.3v"/>
-<part name="3L2" library="rcl" deviceset="L-US" device="LAL02" value="mhn"/>
+<part name="3L1" library="rcl" deviceset="L-US" device="LAL02" value="mhn"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="3R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
@@ -26702,12 +26706,13 @@ W = angled&lt;p&gt;
 <sheet>
 <plain>
 <text x="266.7" y="10.16" size="3.81" layer="98" rot="R180">github.com/74ls00/SpeccyPower5v</text>
-<text x="203.2" y="43.18" size="1.778" layer="98" font="vector" rot="MR180">T1 ETD 22/16/9 0.3mm
+<text x="198.12" y="43.18" size="1.778" layer="98" font="vector" rot="MR180">T1 ETD 22/16/9 0.3mm
+(ZEBRA 4TP PM-EEH22A-25)
 
-I    4-5 81w 0.25mm
-II   1-3 12w 0.2mm
+I    4-5 43+43w 0.2mm
+II   1-3   13w  0.2mm
 
-III  6-9 7w x7 0.55mm
+III  6-9  4w x4  0.56mm
 </text>
 <wire x1="167.64" y1="116.84" x2="167.64" y2="0" width="0.3048" layer="98" style="shortdash"/>
 <wire x1="279.4" y1="116.84" x2="167.64" y2="116.84" width="0.4064" layer="98" style="shortdash"/>
@@ -26843,7 +26848,7 @@ III  6-9 7w x7 0.55mm
 <attribute name="NAME" x="242.443" y="112.2426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="237.363" y="109.7026" size="1.778" layer="96"/>
 </instance>
-<instance part="3L2" gate="G$1" x="223.52" y="106.68" smashed="yes" rot="R90">
+<instance part="3L1" gate="G$1" x="223.52" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="218.44" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="109.22" size="1.778" layer="96"/>
 </instance>
@@ -26861,7 +26866,10 @@ III  6-9 7w x7 0.55mm
 <attribute name="NAME" x="30.48" y="67.31" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="25.4" y="77.47" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="1R1" gate="G$1" x="25.4" y="78.74" rot="MR180"/>
+<instance part="1R1" gate="G$1" x="25.4" y="78.74" smashed="yes" rot="MR180">
+<attribute name="NAME" x="21.59" y="82.3214" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="21.59" y="76.962" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="2R11" gate="G$1" x="139.7" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.89" y="56.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="135.89" y="54.102" size="1.778" layer="96" rot="R180"/>
@@ -26871,9 +26879,18 @@ III  6-9 7w x7 0.55mm
 <attribute name="VALUE" x="41.91" y="96.52" size="1.778" layer="96"/>
 <attribute name="NAME" x="41.91" y="99.822" size="1.778" layer="95"/>
 </instance>
-<instance part="1R2" gate="G$1" x="25.4" y="86.36" rot="MR180"/>
-<instance part="1R3" gate="G$1" x="25.4" y="101.6" rot="MR180"/>
-<instance part="1R4" gate="G$1" x="25.4" y="93.98" rot="MR180"/>
+<instance part="1R2" gate="G$1" x="25.4" y="86.36" smashed="yes" rot="MR180">
+<attribute name="NAME" x="21.59" y="89.9414" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="21.59" y="84.582" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="1R3" gate="G$1" x="25.4" y="101.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="21.59" y="105.1814" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="21.59" y="99.822" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="1R4" gate="G$1" x="25.4" y="93.98" smashed="yes" rot="MR180">
+<attribute name="NAME" x="21.59" y="97.5614" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="21.59" y="92.202" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="T1" gate="G$1" x="167.64" y="88.9" smashed="yes">
 <attribute name="NAME" x="162.56" y="109.22" size="1.27" layer="95"/>
 </instance>
@@ -27254,7 +27271,7 @@ III  6-9 7w x7 0.55mm
 <wire x1="195.58" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="106.68" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="3L2" gate="G$1" pin="1"/>
+<pinref part="3L1" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
 <junction x="213.36" y="106.68"/>
 <wire x1="187.96" y1="48.26" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
@@ -27554,7 +27571,7 @@ III  6-9 7w x7 0.55mm
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="3L2" gate="G$1" pin="2"/>
+<pinref part="3L1" gate="G$1" pin="2"/>
 <pinref part="3C3" gate="G$1" pin="+"/>
 <wire x1="231.14" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
